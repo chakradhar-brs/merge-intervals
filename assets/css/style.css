@@ -1,0 +1,60 @@
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: url(../img/download.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: #a38ca580;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-top: 3rem;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 6px;
+  display: flex;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  color: black;
+}
